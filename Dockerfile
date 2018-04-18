@@ -1,7 +1,7 @@
 FROM nginx
 MAINTAINER 755836844@qq.com
-RUN apt-get update -y
-RUN apt-get upgrade -y
+# RUN apt-get update -y
+# RUN apt-get upgrade -y
 
 ADD dist/ /usr/share/nginx/html
 
